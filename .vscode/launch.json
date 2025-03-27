@@ -1,5 +1,6 @@
 {
     "configurations": [
+        
         {
             "file": "${file}",
             "name": "Html: File",
