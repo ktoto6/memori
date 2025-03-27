@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.Game {
+    font-family: 'Roboto Slab';
+    background-color: #ADBDFF;
+}
+
+.GameCard {
+    color: #C4C4C4;
+    border-radius: 10px;
+}
+
+.Gameh3 {
+    text-align: center;
+}
