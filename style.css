@@ -1,15 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
 
 .Game {
     font-family: 'Roboto Slab';
     background-color: #ADBDFF;
+    width: 100%;
+    height: 100%;
 }
 
 .GameCard {
-    color: #C4C4C4;
+    background-color: #C4C4C4;
     border-radius: 10px;
 }
 
 .Gameh3 {
     text-align: center;
+    padding-top: 2vw;
+}
+
+.ez {
+    width: 11vw;
+    height: 11vw;
+
+}
+
+.normal {
+    width: 13vh;
+    height: 13vh;
+}
+
+.hard {
+    width: 7vw;
+    height: 7vw;
+}
+
+.ezGame{
+    display: none;
+    /* display: grid; */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5vw;
+    padding: 5vw;
+}
+
+.normalGame{
+    display: none;
+    /* display: grid; */
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5vh;
+    padding: 10vh;
+}
+
+.hardGame{
+    display: none;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2vw;
+    padding: 2vw;
 }
