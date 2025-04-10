@@ -8,8 +8,38 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .knopsl {
-    background-color: ADBDFF;
+    margin: 20px;
+    width: 23%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #ADBDFF; 
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.easy {
+margin-top: 40px;
+}
+
+.dota {
+    margin-top: 40px;   
+}
+
+h1 {
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    
 }
