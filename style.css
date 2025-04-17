@@ -1,8 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+    font-family: 'Roboto Slab';
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
 .play {
     background-color: #ADBDFF;
-    border-radius: 10px;
+    border-radius: 25px;
+    margin: 10px;
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    font-size: 225%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600 ;
+    margin-top:80px ;
 }
 .main {
-    background-image: url(img/fon.jpg);
+    background-image: url(img/fon.png);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column-reverse
+}
+.tem {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 273px;
+    height: 87px;
+    background-color: #9B7CFF ;
+    border-radius: 25px;
+    font-weight: 600 ;
+    margin-top:300px ;
+    font-size: 200%;
+}
+.ppp{
+    
+    /* width: 1500px;
+    height: 700px; */
+    text-align: center;
+    font-size: 550%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 600 ;
+    margin-bottom: 50px;
+   
+}
+.in-main{
+    background-size: cover;
+    width: 240px;
+    height: 60px;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    display: flex;
+    font-size: 350% ;
+    border: #B20D30 5px solid;
+    border-radius: 10px;
+    background-color:#ADBDFF ;
+    transition-property: all;
+    transition-duration: 0.3s;
+
+
+}
+
+.in-main:hover{
+    background-color: #d8f402;
+    transform: scale(1.1);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.kran{
+    width: 100vw;
+    height: 100%;
+    background-color: #5be572;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.naisik{
+    width: 275px;
+    height: 200px;
+    /* display: flex; 
+    justify-content: flex-start; */
+    align-self: flex-start;
 }
