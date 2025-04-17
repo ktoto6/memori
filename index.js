@@ -1,4 +1,5 @@
 let LEVEL = 3
+let finish = false
 if (LEVEL == 1){
   let ezGame = document.querySelector('.ezGame')
 
@@ -38,8 +39,9 @@ if (LEVEL == 3){
 
 let cards = []
 
-
 let cells = document.querySelectorAll('.GameCard')
+
+let donecards = 0
 
 cells.forEach(cell => {
   i = 0
@@ -61,6 +63,11 @@ cells.forEach(cell => {
           cards.forEach(card => {
             card.style.background = '#ADBDFF'
             card.classList.add('Done')
+            donecards += 2
+            if (donecards == 36 && LEVEL == 3){
+              finish = !finish
+              console.log(finish)
+            }
           })
         }else{
           cards.forEach(card => {
@@ -72,3 +79,10 @@ cells.forEach(cell => {
     }
   })
 })
+
+// if (donecards == 24 && LEVEL == 2){
+//   finish = !finish
+// }
+// if (donecards == 12 && LEVEL == 1){
+//   finish = !finish
+// }
