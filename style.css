@@ -24,6 +24,8 @@
     border-radius: 30px;
     text-decoration: none;
     color: black;
+    transition-duration: 0.3s;
+    transition-property: all;
 
 
 }
@@ -42,4 +44,41 @@ h1 {
     justify-content: center;
     padding-top: 100px;
     
+}
+
+.knopsl:hover {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.s;
+    transition-property: transform, background-color;
+
+    
+}
+
+.easy:hover {
+    background-color: rgb(124, 225, 93);
+}
+
+.normal:hover {
+    background-color: rgb(238, 164, 53);
+}
+
+.hard:hover {
+    background-color: rgb(225, 93, 93);
+}
+
+
+
+.dota:hover {
+    background: #ad2828;
+    background: linear-gradient(73deg, rgba(173, 40, 40, 1) 0%, rgba(41, 41, 41, 1) 100%);
+}
+
+.kpop:hover {
+    background: #ffb0d4;
+    background: linear-gradient(232deg, rgba(255, 176, 212, 1) 50%, rgba(217, 115, 240, 1) 100%);
+}
+
+.figurs:hover {
+    background: #92bfd1;
+    background: linear-gradient(90deg, rgba(146, 191, 209, 1) 0%, rgba(113, 199, 150, 1) 50%, rgba(83, 214, 237, 1) 100%);
 }
